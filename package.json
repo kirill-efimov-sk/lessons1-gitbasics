@@ -1,0 +1,13 @@
+{
+  "name": "lessons1-homework",
+  "version": "1.0.0",
+  "description": "Working with the repository",
+  "license": "ISC",
+  "author": "EfimovKK",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
