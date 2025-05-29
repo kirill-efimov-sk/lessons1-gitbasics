@@ -1,4 +1,5 @@
 const init = (initialCount, delay) => {
+    console.time();
     console.log('The script has been successfully launched!')
     let counter = initialCount;
 
@@ -9,6 +10,7 @@ const init = (initialCount, delay) => {
         if (counter === 0) {
             console.log('The script completed successfully!');
             clearInterval(intervalId);
+            console.timeEnd();
         }
     }, delay);
 } 
